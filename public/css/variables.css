@@ -1,14 +1,14 @@
 :root {
-  --primary: "#4A8BFC";
-  --secondary: "#E7F6FD";
-  --bg-primary: "#000";
-  --bg-secondary: "#fff";
-  --text-primary: "#000";
-  --text-secondary: "#fff";
-  --placeholder: "#909090";
-  --input: "#FCFCFC";
-  --color-one: "#F85A76";
-  --color-two: "#61B56E";
-  --color-three: "#F98B4E";
-  --color-four: "#EEAC43";
+  --primary: #4a8bfc;
+  --secondary: #eef6fe;
+  --bg-primary: #000;
+  --bg-secondary: #fff;
+  --text-primary: #000;
+  --text-secondary: #fff;
+  --placeholder: #909090;
+  --input: #fcfcfc;
+  --color-one: #f85a76;
+  --color-two: #61b56e;
+  --color-three: #f98b4e;
+  --color-four: #eeac43;
 }

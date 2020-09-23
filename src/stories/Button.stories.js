@@ -2,15 +2,14 @@ import React from "react";
 import Button from "../components/button";
 
 export default {
-  title: "Button",
-  args: {
-    label: "Button",
-  },
+  title: "Buttons",
+  component: Button,
 };
 
-const Story = (args) => <Button {...args} />;
+const StoryButton = (args) => <Button {...args} />;
 
-export const Primary = Story.bind({});
-export const Secondary = Story.bind({});
-export const Danger = Story.bind({});
-export const Success = Story.bind({});
+export const SimpleButton = StoryButton.bind({});
+SimpleButton.args = {
+  label: "Button",
+  variant: "primary"
+}
