@@ -1,5 +1,5 @@
 .button {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -42,7 +42,7 @@
   }
   &.large {
     padding: 20px 25px;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   /* States */
   &:hover {
@@ -50,5 +50,9 @@
   }
   &:active {
     opacity: 0.9;
+  }
+  /* Styles */
+  &.round {
+    border-radius: 50px;
   }
 }
