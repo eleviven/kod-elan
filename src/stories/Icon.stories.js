@@ -2,7 +2,7 @@ import React from "react";
 import * as Icon from "../components/icons";
 
 export default {
-  title: "Icons",
+  title: "Icon",
 };
 
 export const AllIcons = () => (

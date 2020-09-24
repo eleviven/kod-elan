@@ -4,20 +4,20 @@ import IconButton from "../components/icon-button";
 import { Plus } from "../components/icons";
 
 export default {
-  title: "Buttons",
+  title: "Button",
   component: Button,
 };
 
 const StoryButton = (args) => <Button {...args} />;
 const StoryIconButton = (args) => <IconButton {...args}><Plus/></IconButton>;
 
-export const Simple = StoryButton.bind({});
-Simple.args = {
+export const Default = StoryButton.bind({});
+Default.args = {
   label: "Button",
   variant: "primary"
 }
 
-export const Icon = StoryIconButton.bind({});
-Icon.args = {
+export const ButtonIcon = StoryIconButton.bind({});
+ButtonIcon.args = {
   variant: "primary"
 }
