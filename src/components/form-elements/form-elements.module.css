@@ -1,0 +1,57 @@
+.group {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid var(--input-border);
+  border-radius: 4px;
+  overflow: hidden;
+  &.round {
+    border-radius: 50px;
+  }
+  & > .control {
+    background-color: var(--input);
+    border: none;
+    width: 100%;
+    outline: none;
+    /* Sizes */
+    &.small {
+      padding: 9px 12px;
+      font-size: 0.8rem;
+    }
+    &.normal {
+      padding: 12px 10px;
+      font-size: 0.9rem;
+    }
+    &.large {
+      padding: 21px 25px;
+      font-size: 1rem;
+    }
+    /* States */
+    &:focus {
+      border-color: var(--primary);
+    }
+    &::placeholder {
+      color: var(--placeholder);
+    }
+  }
+  & > .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-five);
+    background-color: var(--input-border);
+    min-width: 42px;
+    padding: 0 10px;
+    font-weight: 500;
+    & > svg {
+      width: 1em;
+      height: 1em;
+      font-size: 1.3rem;
+    }
+  }
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
