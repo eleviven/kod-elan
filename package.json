@@ -9,7 +9,7 @@
     "start": "next start",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "svgr": "svgr ./public/icons -d ./src/components/icons --replace-attr-values \"#12131A=currentColor\""
+    "svgr": "svgr ./src/public/icons -d ./src/components/icons --replace-attr-values \"#12131A=currentColor\""
   },
   "dependencies": {
     "classnames": "^2.2.6",

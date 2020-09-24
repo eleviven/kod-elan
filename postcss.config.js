@@ -1,7 +1,7 @@
 module.exports = {
   plugins: {
     "postcss-custom-media": {
-      importFrom: "./public/css/viewport.css",
+      importFrom: "./src/public/css/viewport.css",
     },
     "postcss-preset-env": {
       autoprefixer: {
