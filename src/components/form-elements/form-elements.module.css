@@ -63,3 +63,32 @@
   margin-bottom: 10px;
   font-size: 1rem;
 }
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  & > input {
+    display: none;
+  }
+  & > .text {
+    margin-left: 10px;
+  }
+  & > .toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: var(--input-border);
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  & > input:checked + .toggle {
+    color: #fff;
+    background: var(--color-two);
+  }
+  & > input:checked + .toggle::after {
+    content: '\2713';
+  }
+}
